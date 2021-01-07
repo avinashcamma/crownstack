@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_margin="@dimen/dimen_10_dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/song_imageview"
+        android:layout_width="@dimen/dimen_100_dp"
+        android:layout_height="@dimen/dimen_100_dp"
+        android:src="@drawable/song_image" />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/dimen_10_dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/track_name"
+            android:textSize="@dimen/dimen_18_sp"
+            android:textStyle="bold"
+            tools:text="I Want You Back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/collection_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            tools:text="The Ultimate Collection" />
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:fontFamily="casual"
+            tools:text="Jackson 5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
